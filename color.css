@@ -1,0 +1,36 @@
+body {
+	background-color: #232323;
+	
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+#choice {
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+p {
+	text-align: center;
+	background-color: white;
+
+}
+
+#container {
+	width: 600px;	
+	margin: 0 auto;
+}
+.square {
+	float: left;
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	
+}
