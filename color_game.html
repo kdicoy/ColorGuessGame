@@ -2,16 +2,30 @@
 <html>
   <head>
   <meta charset="UTF-8">
-  <title>Color Game</title>
+  <title>Color Guessing Game</title>
   <link rel="stylesheet" type="text/css" href="color.css">
   </head>
 <body>
-<h1> The Great <span id="picked_color"> RGB </span> Color Game</h1>
+    <h1> 
+		Color
+		<br>
+		<span id="picked_color"> RGB </span> 
+		<br>
+		Guessing Game
+	</h1>
 
-<p> <span>PLAY AGAIN? </span> <span id="choice"> </span> <span> EASY</span><span> HARD</span>
-</p>
+<div id="stripe"> 
+	<button id="reset">NEW COLOR </button> 
+	<span id="choice"> </span> 
+	<button class="mode">EASY</button>
+	<button class="mode selected">MEDIUM</button>
+	<button class="mode">HARD</button>
+</div>
 
 <div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
 	<div class="square"></div>
 	<div class="square"></div>
 	<div class="square"></div>
